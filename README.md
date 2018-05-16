@@ -14,13 +14,13 @@ Volg de volgende stappen om een repository aan te maken voor het nieuwe prototyp
 
 1. Maak een nieuw repository aan binnen de organization HanNotSMachineLearning en zorg hierbij voor het volgende:
 
-   1. Geeft het repository een naam waarbij het duidelijk is dat het gaat om een prototype van een specifiek machine learning algoritme, bijvoorbeeld `DecisionTreePrototype ` of `DecisionForestPrototype`.
+   1. Geeft de repository een naam waarbij het duidelijk is dat het gaat om een prototype van een specifiek machine learning algoritme, bijvoorbeeld `DecisionTreePrototype ` of `DecisionForestPrototype`.
    2. Selecteer `HanNotSMachineLearning`  als owner.
    3. Selecteer de optie dat er een README.md wordt aangemaakt.
    4. Een .gitignore hoeft niet ingesteld te worden.
    5. Selecteer dat het repository valt onder de MIT License.
 
-2. Voeg de volgende topics toe aan het repository: `deelvraag8` & `prototype`
+2. Voeg de volgende topics toe aan de repository: `deelvraag8` & `prototype`
 
 3. Zorg ervoor dat het repository de volgende bestandsstructuur heeft (je kan hiervoor het een en ander uit dit repository kopiëren):
 
@@ -34,7 +34,7 @@ Volg de volgende stappen om een repository aan te maken voor het nieuwe prototyp
    |	|   Dataset.csv
    ```
 
-4. Het repository is nu aangemaakt en ingericht!
+4. De repository is nu aangemaakt en ingericht!
 
 
 
@@ -52,7 +52,14 @@ Elk machine learning algoritme werkt op een andere manier, dus elk prototype wer
 
 #### Packages
 
-Zorg ervoor dat je alle packages die je gebruikt toevoegd aan `requirements.txt` zodat alles in een keer te installeren is zoals in de documentatie template beschreven is. 
+Zorg ervoor dat je alle packages die je gebruikt toevoegd aan `requirements.txt` zodat alles in een keer te installeren is zoals in de documentatie template beschreven is. Zie het onderstaande voorbeeld:
+
+```txt
+tensorflow
+csv
+```
+
+ 
 
 ```
 !-- LETOP --!
@@ -62,7 +69,7 @@ Zorg ervoor dat deze er ook in zitten bij het prototype.
 
 
 
-## Code voorbeelden
+## Codevoorbeelden
 
 Sommige onderdelen van het prototype worden waarschijnlijk in meerdere prototypes gebruikt, denk bijvoorbeeld aan het inlezen van de testdata. Om tijd te besparen staan een aantal van die functionaliteiten hieronder uitgewerkt.
 
