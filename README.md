@@ -50,9 +50,50 @@ Elk machine learning algoritme werkt op een andere manier, dus elk prototype wer
 
 
 
+#### Packages
+
+Zorg ervoor dat je alle packages die je gebruikt toevoegd aan `requirements.txt` zodat alles in een keer te installeren is zoals in de documentatie template beschreven is. 
+
+```
+!-- LETOP --!
+In deze prototypekit zitten al een aantal packages in requirements.txt van packages waarvan uit wordt gegaan dat deze in alle prototypes gebruikt worden.
+Zorg ervoor dat deze er ook in zitten bij het prototype.
+```
+
+
+
+## Code voorbeelden
+
+Sommige onderdelen van het prototype worden waarschijnlijk in meerdere prototypes gebruikt, denk bijvoorbeeld aan het inlezen van de testdata. Om tijd te besparen staan een aantal van die functionaliteiten hieronder uitgewerkt.
+
+
+
+### CSV inlezen
+
+De onderstaande code leest het bestand met de dataset in en zet het om in een twee dimensionale array.
+
+```python
+import csv
+
+with open('Data/Dataset.csv', 'r') as DataFile:
+	dataset = list(csv.reader(DataFile))
+```
+
+
+
+### User input
+
+Door middel van de onderstaande code is het mogelijk om via de console user input binnen te krijgen.
+
+```python
+userInput = input("")
+```
+
+
+
 ## Documentatie
 
-Om de documentatie van de verschillende prototypes consistent te houden moet deze voldoen aan het template wat terug te vinden is in deze kit. 
+Om de documentatie van de verschillende prototypes consistent te houden moet deze voldoen aan het template dat terug te vinden is in deze kit. 
 
 ### Opstellen 
 
@@ -62,7 +103,7 @@ Volg voor het opstellen van de documentatie het volgende stappenplan:
 2. Breid het hoofdstuk `Algoritme` uit. In dit hoofdstuk moet globaal duidelijk worden wat het algoritme is en hoe het werkt. Je kan hier waarschijnlijk ook stukken uit het onderzoeksrapport voor gebruiken.
 3. Het hoofdstuk `Trainingsdata ` is in principe af. Het hoeft alleen uitgebreid te worden wanneer er wijzigingen aan de dataset plaatsvinden om 
 4. Het hoofdstuk `Trainingsdata ` en `Afhankelijkheden` zijn als het goed is gelijk voor alle prototypes dus hier hoeft niks aangepast te worden.
-5. Ook het hoofdstuk `Installatie` is groot en deels het zelfde voor alle prototypes. Het enige dat in dit hoofdstuk verschillend kan zijn is de lijst met packages die door het prototype gebruikt worden. Werk deze lijst bij zodat het overeen komt met de door het prototype gebruikte packages.
+5. Ook het hoofdstuk `Installatie` is grotendeels hetzelfde voor alle prototypes. Het enige dat in dit hoofdstuk verschillend kan zijn is de lijst met packages die door het prototype gebruikt worden. Werk deze lijst bij zodat het overeen komt met de door het prototype gebruikte packages.
 6. Het hoofdstuk `Opstarten` hoeft alleen aangepast te worden wanneer het niet mogelijk is het prototype op de standaard gedefineerde manier op te starten.
 7. In het laatste hoofstuk `Code` moet de code van het prototype beschreven en uitgelegd worden. Hieruit moet duidelijk worden wat bepaalde stukken code doen. Denk hierbij ook aan het toevoegen van stukken code om dit duidelijk te maken.
 8. De documentatie van het prototype is nu up-to-date. Vergeet niet om het weer bij te werken als je iets veranderd aan het prototype.

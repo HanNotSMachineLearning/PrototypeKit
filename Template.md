@@ -25,7 +25,8 @@ Zoals eerder genoemd is het prototype geschreven in python, om precies te zijn v
 
 ```
 !-- LETOP --!
-Het is van belang dat python wordt toegevoegd aan je Windows Path variable. Hiervoor is een optie te vinden in de installatiewizzard van Python.
+Het is van belang dat python wordt toegevoegd aan je Windows Path variable. 
+Hiervoor is een optie te vinden in de installatiewizzard van Python.
 ```
 
 
