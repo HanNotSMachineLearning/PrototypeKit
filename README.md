@@ -29,9 +29,11 @@ Volg de volgende stappen om een repository aan te maken voor het nieuwe prototyp
    |   README.md
    |   prototype.py
    |   requirements.txt
+   |	testResults.md
    |
    |---Data
    |	|   Dataset.csv
+   |	|	TestDataset.csv
    ```
 
 4. De repository is nu aangemaakt en ingericht!
@@ -45,6 +47,8 @@ Elk machine learning algoritme werkt op een andere manier, dus elk prototype wer
 - Maakt gebruik van tensorflow als machine learning framework.
 - prototype.py is het hoofd bestand van de applicatie, door `python prototype.py` uit te voeren moet de applicatie dus opstarten.
 - Maakt gebruik van de algemene dataset.
+- Gebruikt de test dataset voor het testen van de accuraatheid van het algoritme.
+- Heeft de mogelijkheid een kleinere delen van de dataset te gebruiken om zo de toename van de accuraatheid te testen.
 - Toont de accuraatheid van het getrainde algoritme.
 - Toont de tijd die het kost om tot de voorspelling te komen.
 
@@ -95,6 +99,39 @@ Door middel van de onderstaande code is het mogelijk om via de console user inpu
 ```python
 userInput = input("")
 ```
+
+
+
+## Testen
+
+Voor het testen van het prototype dient het testresults bestand ingevuld te worden door de ontwikkelaar van het prototype. Ook dienen twee personen die de applicatie reviewen deze testen nog een keer uit te voeren om zo meerdere test resultaten beschikbaar te krijgen.
+
+
+
+### Testen van de afhankelijkheid van de accuratie t.o.v. de trainingsdata 
+
+Een onderdeel van het prototype dat getest moet worden is de afhankelijkheid van accuratie ten opzichte van de omvang van de dataset. Dit wordt gedaan door het prototype vijf keer te draaien. Elke keer dat het prototype gedraaid wordt, wordt er een andere hoeveelheid trainingsdata gebruikt. Hiervoor zijn er verschillende datasets beschikbaar in de prototype kit. Het prototype moet vervolgens getest worden door middel van de testdataset. Het percentage correct voorspeld diend vervolgens genoteerd te worden in het `testResults.md` document.
+
+
+
+### Testen van de accuraatheid aan de hand van de hoeveelheid opgegeven symptomen
+
+Een ander onderdeel van het prototype dat getest moet worden is de accuraatheid bij een aantal ingevoerde symptomen. Hiervoor moet het prototype getraind worden met de volledige trainingsdata dataset. Vervolgens dient elke tester vijf maal te testen door slechts één symptoom in te voeren en het prototype vervolgens een voorspelling te laten doen, zie het onderstaande voorbeeld.  
+
+``````
+ingevoerd symptoom: keelpijn
+verwachte voorspelling: verkoudheid
+werkelijke voorspelling: longontsteking
+voorspelling correct: N
+``````
+
+Deze tests dienen vervolgens te worden herhaald voor door het prototype ook te testen wanneer er 2,3,4,5,6 of 7 symptomen ingevoerd worden. De resultaten moeten vervolgens genoteerd worden in het document `testResults.md`.
+
+
+
+### Snelheid van het algoritme
+
+Hiervoor hoeft nu nog niks getest te worden. Dit is namelijk afhankelijk van de omgeving waarin het prototype gedraaid wordt.
 
 
 
