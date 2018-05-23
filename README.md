@@ -34,6 +34,11 @@ Volg de volgende stappen om een repository aan te maken voor het nieuwe prototyp
    |---Data
    |	|   Dataset.csv
    |	|	TestDataset.csv
+   |	|   Dataset-10.csv
+   |	|   Dataset-25.csv
+   |	|   Dataset-50.csv
+   |	|   Dataset-75.csv
+   |	| 	Data_TextReference.txt
    ```
 
 4. De repository is nu aangemaakt en ingericht!
@@ -44,7 +49,7 @@ Volg de volgende stappen om een repository aan te maken voor het nieuwe prototyp
 
 Elk machine learning algoritme werkt op een andere manier, dus elk prototype werkt op een andere manier. Het is dus niet mogelijk om al helemaal vast te leggen hoe de applicatie er uit moet gaan zien.  Zorg  er in ieder geval voor dat de volgende zaken er in zitten:
 
-- Maakt gebruik van tensorflow als machine learning framework.
+- Maakt gebruik van sklearn als machine learning framework.
 - prototype.py is het hoofd bestand van de applicatie, door `python prototype.py` uit te voeren moet de applicatie dus opstarten.
 - Maakt gebruik van de algemene dataset.
 - Gebruikt de test dataset voor het testen van de accuraatheid van het algoritme.
@@ -59,7 +64,7 @@ Elk machine learning algoritme werkt op een andere manier, dus elk prototype wer
 Zorg ervoor dat je alle packages die je gebruikt toevoegd aan `requirements.txt` zodat alles in een keer te installeren is zoals in de documentatie template beschreven is. Zie het onderstaande voorbeeld:
 
 ```txt
-tensorflow
+sklearn
 csv
 ```
 
