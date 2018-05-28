@@ -22,7 +22,7 @@ De onderstaande tabel bevat de waardes van de gemiddelde accuraatheids percentag
 | **75% van de dataset** |           |            |            |
 | **100%  van de dataset**               |           |            |            |
 
-####Aantal ingevoerde symptomen
+#### Aantal ingevoerde symptomen
 
 Naast de afhankelijkheid van de accuraatheid ten opzichte van de grootte van de dataset is ook de accuraatheid van het prototype getest ten opzichte van het aantal ingevoerde symptomen waarmee de voorspelling moet worden gedaan. 
 
