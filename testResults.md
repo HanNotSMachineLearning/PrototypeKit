@@ -29,7 +29,7 @@ Naast de afhankelijkheid van de accuraatheid ten opzichte van de grootte van de 
 In de onderstaande tabellen staan de resultaten van de tests die zijn uitgevoerd om de accuraatheid te bepalen.
 
 | 1   symptoom ingevoerd | **Gebruikte symptomen** | **Verwachte voorspelling**        | **Correcte voorspelling (j/n)** |
-| ---------------------- | ----------------------- | --------------------------------- | ------------------------------- |                                 |
+| ---------------------- | ----------------------- | --------------------------------- | ------------------------------- |    
 | developer              |                         |                                   |                                 |
 | developer              |                         |                                   |                                 |
 | developer              |                         |                                   |                                 |
