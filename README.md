@@ -121,7 +121,7 @@ Een onderdeel van het prototype dat getest moet worden is de afhankelijkheid van
 
 ### Testen van de accuraatheid aan de hand van de hoeveelheid opgegeven symptomen
 
-Een ander onderdeel van het prototype dat getest moet worden is de accuraatheid bij een aantal ingevoerde symptomen. Hiervoor moet het prototype getraind worden met de volledige trainingsdata dataset. Vervolgens dient elke tester vijf maal te testen door slechts één symptoom in te voeren en het prototype vervolgens een voorspelling te laten doen, zie het onderstaande voorbeeld.  
+Een ander onderdeel van het prototype dat getest moet worden is de accuraatheid bij een bepaald aantal ingevoerde symptomen. Hiervoor moet het prototype getraind worden met de volledige trainingsdata dataset. Vervolgens dient elke tester vijf maal te testen door slechts één symptoom in te voeren en het prototype vervolgens een voorspelling te laten doen, zie het onderstaande voorbeeld.  
 
 ``````
 ingevoerd symptoom: keelpijn
@@ -130,7 +130,7 @@ werkelijke voorspelling: longontsteking
 voorspelling correct: N
 ``````
 
-Deze tests dienen vervolgens te worden herhaald voor door het prototype ook te testen wanneer er 2,3,4,5,6 of 7 symptomen ingevoerd worden. De resultaten moeten vervolgens genoteerd worden in het document `testResults.md`.
+Deze tests dienen vervolgens te worden herhaald door het prototype ook te testen wanneer er 2,3,4,5,6 of 7 symptomen ingevoerd worden. De resultaten moeten vervolgens genoteerd worden in het document `testResults.md`.
 
 
 
