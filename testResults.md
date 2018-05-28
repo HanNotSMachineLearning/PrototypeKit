@@ -2,6 +2,12 @@
 
 In dit document staan de verschillende resultaten van het testen van het prototype uitgewerkt.
 
+Developer:
+
+Reviewer 1:
+
+Reviewer 2:
+
 
 
 ## Accuraatheid 
@@ -16,7 +22,6 @@ De onderstaande tabel bevat de waardes van de gemiddelde accuraatheids percentag
 
 | Percentage data        | Developer | Reviewer 1 | Reviewer 2 |
 | ---------------------- | --------- | ---------- | ---------- |
-| **10% van de dataset** |           |            |            |
 | **25% van de dataset** |           |            |            |
 | **50% van de dataset** |           |            |            |
 | **75% van de dataset** |           |            |            |
@@ -29,7 +34,7 @@ Naast de afhankelijkheid van de accuraatheid ten opzichte van de grootte van de 
 In de onderstaande tabellen staan de resultaten van de tests die zijn uitgevoerd om de accuraatheid te bepalen.
 
 | 1   symptoom ingevoerd | **Gebruikte symptomen** | **Verwachte voorspelling**        | **Correcte voorspelling (j/n)** |
-| ---------------------- | ----------------------- | --------------------------------- | ------------------------------- |    
+| ---------------------- | ----------------------- | --------------------------------- | ------------------------------- |
 | developer              |                         |                                   |                                 |
 | developer              |                         |                                   |                                 |
 | developer              |                         |                                   |                                 |
