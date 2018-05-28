@@ -115,7 +115,7 @@ Voor het testen van het prototype dient het testresults bestand ingevuld te word
 
 ### Testen van de afhankelijkheid van de accuratie t.o.v. de trainingsdata 
 
-Een onderdeel van het prototype dat getest moet worden is de afhankelijkheid van accuratie ten opzichte van de omvang van de dataset. Dit wordt gedaan door het prototype vijf keer te draaien. Elke keer dat het prototype gedraaid wordt, wordt er een andere hoeveelheid trainingsdata gebruikt. Hiervoor zijn er verschillende datasets beschikbaar in de prototype kit. Het prototype moet vervolgens getest worden door middel van de testdataset. Het percentage correct voorspeld diend vervolgens genoteerd te worden in het `testResults.md` document.
+Een onderdeel van het prototype dat getest moet worden is de afhankelijkheid van accuratie ten opzichte van de omvang van de dataset. Dit wordt gedaan door het prototype vijf keer te draaien. Elke keer dat het prototype gedraaid wordt, wordt er een andere hoeveelheid trainingsdata gebruikt. Hiervoor zijn er verschillende datasets beschikbaar in de prototype kit. Het prototype moet vervolgens getest worden door middel van de testdataset. Het percentage correct voorspeld dient vervolgens genoteerd te worden in het `testResults.md` document.
 
 
 
