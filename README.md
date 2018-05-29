@@ -32,9 +32,8 @@ Volg de volgende stappen om een repository aan te maken voor het nieuwe prototyp
    |	testResults.md
    |
    |---Data
-   |	|   Dataset.csv
    |	|	TestDataset.csv
-   |	|   Dataset-10.csv
+   |	|   Dataset-100.csv
    |	|   Dataset-25.csv
    |	|   Dataset-50.csv
    |	|   Dataset-75.csv
