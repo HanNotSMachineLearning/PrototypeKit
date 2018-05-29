@@ -18,7 +18,6 @@ Volg de volgende stappen om een repository aan te maken voor het nieuwe prototyp
    2. Selecteer `HanNotSMachineLearning`  als owner.
    3. Selecteer de optie dat er een README.md wordt aangemaakt.
    4. Een .gitignore hoeft niet ingesteld te worden.
-   5. Selecteer dat het repository valt onder de MIT License.
 
 2. Voeg de volgende topics toe aan de repository: `deelvraag8` & `prototype`
 
