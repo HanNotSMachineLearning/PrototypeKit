@@ -64,7 +64,6 @@ Zorg ervoor dat je alle packages die je gebruikt toevoegd aan `requirements.txt`
 
 ```txt
 sklearn
-csv
 ```
 
  
