@@ -1,6 +1,6 @@
 # PrototypeKit
 
-Deze prototypekit is geschreven ter ondersteuning van het bouwen van de verschillende prototypes voor deelvraag 8 van het onderzoek 'Machine learning voor de huisarts'.  Door de prototypes op de manier zoals in deze kit beschreven te bouwen krijgen alle prototypes dezelfde structuur. Hierdoor wordt het testen van alle prototypes makkelijker.
+Deze prototypekit is geschreven ter ondersteuning van het bouwen van de verschillende prototypes voor deelvraag 7 van het onderzoek 'Machine learning voor de huisarts'.  Door de prototypes op de manier zoals in deze kit beschreven te bouwen krijgen alle prototypes dezelfde structuur. Hierdoor wordt het testen van alle prototypes makkelijker.
 
 
 
